@@ -1,184 +1,148 @@
-127.0.0.1 localhost
-127.0.0.1 localhost.localdomain
-127.0.0.1 local
-255.255.255.255 broadcasthost
-::1 localhost
-::1 ip6-localhost
-::1 ip6-loopback
-fe80::1%lo0 localhost
-ff00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
-
-0.0.0.0 ext.goguardian.com
-0.0.0.0 goguardian.com
-0.0.0.0 pusher.com
-0.0.0.0 laptoplookout.com
-0.0.0.0 kinesis.us-west-2.amazonaws.com
-0.0.0.0 hosted-extensions.s3.us-west-2.amazonaws.com
-0.0.0.0 x3-report-uploads.s3.us-west-2.amazonaws.com
-0.0.0.0 beacon-report-uploads-prod.s3.us-west-2.amazonaws.com
-0.0.0.0 com-default.ws
-0.0.0.0 testing-v4.metric.gstatic.com
-0.0.0.0 tools.google.com
-0.0.0.0 dl.google.com
-0.0.0.0 student-pltw.kiteaai.org
-0.0.0.0 clients2.google.com
-0.0.0.0 ep.learnplatform.com
-0.0.0.0 policies.google.com
-0.0.0.0 chromereporting-pa.googleapis.com
-0.0.0.0 storage.googleapis.com
-0.0.0.0 gopher-buddy-prod.appspot.com
-0.0.0.0 relay-production-sockets-alb-1210277364.us-west-2.elb.amazonaws.com
-0.0.0.0 lightspeedsystems.com
-0.0.0.0 s3-website.us-west-2.amazonaws.com
-0.0.0.0 lsrelay-config-production.s3.amazonaws.com
-0.0.0.0 lsrelay-extensions-production.s3.amazonaws.com
-0.0.0.0 b16rt683ll.execute-api.us-west-2.amazonaws.com
-0.0.0.0 p7nvu5it0k.execute-api.us-west-2.amazonaws.com
-0.0.0.0 sqs.us-west-2.amazonaws.com
-0.0.0.0 lightspeed-apps.s3.amazonaws.com
-0.0.0.0 lsmdm.com
-0.0.0.0 lsaccess.me
-0.0.0.0 lsaccess.com
-0.0.0.0 lsurl.me
-0.0.0.0 lightspeed-realtime.ably.io
-0.0.0.0 a-fallback-lightspeed.ably.io
-0.0.0.0 b-fallback-lightspeed.ably.io
-0.0.0.0 c-fallback-lightspeed.ably.io
-0.0.0.0 realtime.ably.io
-0.0.0.0 lsclassroom.com
-0.0.0.0 relay.school
-0.0.0.0 lsfilter.com
-0.0.0.0 lsrelayaccess.com
-0.0.0.0 devices.lsmdm.com
-0.0.0.0 lsagent.fcps.org
-0.0.0.0 rest.ably.io
-0.0.0.0 global.stun.twillo.com
-0.0.0.0 global.turn.twillo.com
-0.0.0.0 apiproxy-website-nlb-prod-3-ac110f6ae472b85a.elb.eu-west-1.amazonaws.com
-0.0.0.0 firehose.us-west-2.amazonaws.com
-0.0.0.0 us-west-2.elb.amazonaws.com
-0.0.0.0 5rw61tcrl5.execute-api.us-west-2.amazonaws.com
-0.0.0.0 familyzone.io
-0.0.0.0 linewize.io
-0.0.0.0 linewize.com
-0.0.0.0 limewize.net
-0.0.0.0 linewize.net
-0.0.0.0 familyzone.com
-0.0.0.0 securly.com
-0.0.0.0 www.securly.com
-0.0.0.0 tabpilot.com
-0.0.0.0 uswest-www-alb-1430906465.us-west-1.elb.amazonaws.com
-0.0.0.0 smartpac-shutdown.securly.com
-0.0.0.0 blocksi.net
-0.0.0.0 block.si
-0.0.0.0 ipify.org
-0.0.0.0 ip-api.com
-0.0.0.0 ibosscloud.com
-0.0.0.0 iboss.si
-0.0.0.0 opendns.com
-0.0.0.0 umbrella.cisco.com
-0.0.0.0 crl3.digicert.com
-0.0.0.0 crl4.digicert.com
-0.0.0.0 ocsp.digicert.com
-0.0.0.0 s.tunnels.ironport.com
-0.0.0.0 contentkeeper.io
-0.0.0.0 contentkeeper.net
-0.0.0.0 contentkeeper.com
-0.0.0.0 fastvue.co
-0.0.0.0 amplifiedit.com
-0.0.0.0 hapara.com
-0.0.0.0 teacherdashboard.com
-0.0.0.0 mystudentdashboard.com
-0.0.0.0 pusherapp.com
-0.0.0.0 teacher-db.appspot.com
-0.0.0.0 haparaview.appspot.com
-0.0.0.0 td-admin.appspot.com
-0.0.0.0 td-setup.appspot.com
-0.0.0.0 bomgar.com
-0.0.0.0 lanschool.com
-0.0.0.0 lanschoolair.com
-0.0.0.0 lenovosoftware.com
-0.0.0.0 net-ref.com
-0.0.0.0 paloaltonetworks.com
-0.0.0.0 lgfl.net
-0.0.0.0 safehomeschool.net
-0.0.0.0 zscalerone.net
-0.0.0.0 zscaler.com
-0.0.0.0 sophos.com
-0.0.0.0 qustodio.com
-0.0.0.0 dyknow.com
-0.0.0.0 netsweeper.com
-0.0.0.0 senso.cloud
-0.0.0.0 learnplatform.com
-0.0.0.0 kiddoware.com
-0.0.0.0 mobileguardian.com
-0.0.0.0 bark.us
-0.0.0.0 barkforschools.com
-0.0.0.0 bark.app
-0.0.0.0 ec2-3-208-203-229.compute-1.amazonaws.com
-0.0.0.0 ec2-54-197-189-131.compute-1.amazonaws.com
-0.0.0.0 ec2-23-21-246-79.compute-1.amazonaws.com
-0.0.0.0 ec2-3-222-46-47.compute-1.amazonaws.com
-0.0.0.0 ec2-18-204-74-215.compute-1.amazonaws.com
-0.0.0.0 dualstack.titleall-1498646681.us-east-1.elb.amazonaws.com
-0.0.0.0 ec2-52-1-172-112.compute-1.amazonaws.com
-0.0.0.0 ec2-52-20-75-81.compute-1.amazonaws.com
-0.0.0.0 awseb-e-v-awsebloa-1ioafv91ffxq7-1038271640.us-east-1.elb.amazonaws.com
-0.0.0.0 eps-dev-ecs-alb-1196863871.us-east-1.elb.amazonaws.com
-0.0.0.0 c84963acd44ea608bb56c3adb27f6cdb-255793865.us-east-1.elb.amazonaws.com
-0.0.0.0 ec2-35-170-206-52.compute-1.amazonaws.com
-0.0.0.0 ec2-44-208-249-49.compute-1.amazonaws.com
-0.0.0.0 ec2-44-208-199-202.compute-1.amazonaws.com
-0.0.0.0 ec2-34-226-146-13.compute-1.amazonaws.com
-0.0.0.0 agent-slb-49887559.us-east-1.elb.amazonaws.com
-0.0.0.0 gabb.com
-0.0.0.0 gabbcloud.com
-0.0.0.0 gabbwireless.com
-0.0.0.0 gabbphone.com
-0.0.0.0 ec2-3-228-43-67.compute-1.amazonaws.com
-0.0.0.0 ec2-34-235-233-121.compute-1.amazonaws.com
-0.0.0.0 ec2-184-72-248-117.compute-1.amazonaws.com
-0.0.0.0 ec2-18-215-40-71.compute-1.amazonaws.com
-0.0.0.0 ec2-52-21-69-105.compute-1.amazonaws.com
-0.0.0.0 deledao.com
-0.0.0.0 dldschool.org
-0.0.0.0 apisanta.com
-0.0.0.0 jamfcloud.com
-0.0.0.0 jamf.com
-0.0.0.0 sentry.pub.jamf.build
-0.0.0.0 launchdarkly.com
-0.0.0.0 ad-assets.futurecdn.net
-0.0.0.0 ck.getcookiestxt.com
-0.0.0.0 eu1.clevertap-prod.com
-0.0.0.0 wizhumpgyros.com
-0.0.0.0 coccyxwickimp.com
-0.0.0.0 webmail-who-int.000webhostapp.com
-0.0.0.0 010sec.com
-0.0.0.0 01mspmd5yalky8.com
-0.0.0.0 0byv9mgbn0.com
-0.0.0.0 ns6.0pendns.org
-0.0.0.0 dns.0pengl.com
-0.0.0.0 12724.xyz
-0.0.0.0 21736.xyz
-0.0.0.0 www.analytics.247sports.com
-0.0.0.0 2no.co
-0.0.0.0 www.2no.co
-0.0.0.0 logitechlogitechglobal.112.2o7.net
-0.0.0.0 www.logitechlogitechglobal.112.2o7.net
-0.0.0.0 2s11.com
-0.0.0.0 30-day-change.com
-0.0.0.0 www.30-day-change.com
-0.0.0.0 mclean.f.360.cn
-0.0.0.0 mvconf.f.360.cn
-0.0.0.0 care.help.360.cn
-0.0.0.0 eul.s.360.cn
-0.0.0.0 g.s.360.cn
-0.0.0.0 p.s.360.cn
-0.0.0.0 aicleaner.shouji.360.cn
-0.0.0.0 ssl.360antivirus.org
-0.0.0.0 ad.360in.com
+||ext.goguardian.com^
+||goguardian.com^
+||pusher.com^
+||laptoplookout.com^
+||kinesis.us-west-2.amazonaws.com^
+||hosted-extensions.s3.us-west-2.amazonaws.com^
+||x3-report-uploads.s3.us-west-2.amazonaws.com^
+||beacon-report-uploads-prod.s3.us-west-2.amazonaws.com^
+||com-default.ws^
+*testing-v4.metric.gstatic.com^
+||tools.google.com^
+||dl.google.com^
+||student-pltw.kiteaai.org^$important,dnsrewrite=duckduckgo.com
+||clients2.google.com^
+||ep.learnplatform.com^
+||policies.google.com^
+||chromereporting-pa.googleapis.com^
+||storage.googleapis.com^
+||gopher-buddy-prod.appspot.com^
+||relay-production-sockets-alb-1210277364.us-west-2.elb.amazonaws.com^
+||lightspeedsystems.com^
+||s3-website.us-west-2.amazonaws.com^
+||lsrelay-config-production.s3.amazonaws^
+||lsrelay-extensions-production.s3.amazonaws.com^$important,dnsrewrite=ibussy.co
+||b16rt683ll.execute-api.us-west-2.amazonaws.com^
+||p7nvu5it0k.execute-api.us-west-2.amazonaws.com^
+||sqs.us-west-2.amazonaws.com^
+||lightspeed-apps.s3.amazonaws.com^
+||lsmdm.com^
+||lsaccess.me^
+||lsaccess.com^
+||lsurl.me^
+||lightspeed-realtime.ably.io^
+||a-fallback-lightspeed.ably.io^
+||b-fallback-lightspeed.ably.io^
+||c-fallback-lightspeed.ably.io^
+||realtime.ably.io^
+||lsclassroom.com^
+||relay.school^
+||lsfilter.com^
+||lsrelayaccess.com^
+||devices.lsmdm.com^
+||lsagent.fcps.org^
+||rest.ably.io^
+||global.stun.twillo.com^
+||global.turn.twillo.com^
+||apiproxy-website-nlb-prod-3-ac110f6ae472b85a.elb.eu-west-1.amazonaws.com^
+||firehose.us-west-2.amazonaws.com^
+||us-west-2.elb.amazonaws.com^
+||5rw61tcrl5.execute-api.us-west-2.amazonaws.com^
+||familyzone.io^
+||linewize.io^
+||linewize.com^
+||limewize.net^
+||linewize.net^
+||familyzone.com^
+||securly.com^
+||www.securly.com^
+||tabpilot.com^
+||uswest-www-alb-1430906465.us-west-1.elb.amazonaws.com^
+||smartpac-shutdown.securly.com^
+||blocksi.net^
+||block.si^
+||ipify.org^
+||ip-api.com^
+||ibosscloud.com^
+||iboss.si^
+||opendns.com^
+||umbrella.cisco.com^
+||crl3.digicert.com^
+||crl4.digicert.com^
+||ocsp.digicert.com^
+||s.tunnels.ironport.com^
+||contentkeeper.io^
+||contentkeeper.net^
+||contentkeeper.com^
+||fastvue.co^
+||amplifiedit.com^
+||gopher-buddy-prod.appspot.com^
+||forticlient.com^
+||hapara.com^
+||teacherdashboard.com^
+||mystudentdashboard.com^
+||pusherapp.com^
+||pusher.com^
+||teacher-db.appspot.com^
+||haparaview.appspot.com^
+||td-admin.appspot.com^
+||td-setup.appspot.com^
+||bomgar.com^
+||lanschool.com^
+||lanschoolair\lenovo.\.com^
+||lenovosoftware.com^
+||net-ref.com^
+||paloaltonetworks.com^
+||lgfl.net^
+||safehomeschool.net^
+||zscalerone.net^
+||zscaler.com^
+||sophos.com^
+||qustodio.com^
+||dyknow.com^
+||safehomeschool.net^
+||lgfl.net^
+||netsweeper.com^
+||senso.cloud^
+||learnplatform.com^
+||kiddoware.com^
+||mobileguardian.com^
+||bark.us^
+||barkforschools.com^
+||bark.app^
+||ec2-3-208-203-229.compute-1.amazonaws.com^
+||ec2-54-197-189-131.compute-1.amazonaws.com^
+||ec2-23-21-246-79.compute-1.amazonaws.com^
+||ec2-3-222-46-47.compute-1.amazonaws.com^
+||ec2-18-204-74-215.compute-1.amazonaws.com^
+||dualstack.titleall-1498646681.us-east-1.elb.amazonaws.com^
+||ec2-52-1-172-112.compute-1.amazonaws.com^
+||ec2-52-20-75-81.compute-1.amazonaws.com^
+||awseb-e-v-awsebloa-1ioafv91ffxq7-1038271640.us-east-1.elb.amazonaws.com^
+||eps-dev-ecs-alb-1196863871.us-east-1.elb.amazonaws.com^
+||test.us-east-1.verify-delete-ser.oinse1rw.beta.forgeinternaldnsapps.ec2.aws.dev^
+||c84963acd44ea608bb56c3adb27f6cdb-255793865.us-east-1.elb.amazonaws.com^
+||ec2-35-170-206-52.compute-1.amazonaws.com^
+||ec2-44-208-249-49.compute-1.amazonaws.com^
+||ec2-44-208-199-202.compute-1.amazonaws.com^
+||ec2-34-226-146-13.compute-1.amazonaws.com^
+||agent-slb-49887559.us-east-1.elb.amazonaws.com^
+||gabb.com^
+||gabbcloud.com^
+||gabbwireless.com^
+||gabbphone.com^
+||ec2-3-228-43-67.compute-1.amazonaws.com^
+||ec2-34-235-233-121.compute-1.amazonaws.com^
+||ec2-184-72-248-117.compute-1.amazonaws.com^
+||ec2-18-215-40-71.compute-1.amazonaws.com^
+||26e2b11da9cebfcf5142d1722747f1d5.gr7.us-east-1.eks.amazonaws.com^
+||ec2-52-21-69-105.compute-1.amazonaws.com^
+||fd7977b2009a0fb0d1f57ba88ce180de.gr7.us-east-1.eks.amazonaws.com^
+||deledao.com^
+||dldschool.org^
+||apisanta.com^
+||sentry.pub.jamf.build^
+||jamfcloud.com^
+||jamf.com^
+|launchdarkly.com^
+||qustodio.com^
